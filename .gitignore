@@ -1,0 +1,22 @@
+node_modules/
+package.json/ 
+"/package_lock.json" 
+"/three.js/Exercise1/package_lock.json" 
+"*package_lock.json" 
+"*/package_lock.json" 
+"*node_modules" 
+# Ignore node modules
+node_modules/
+
+# Ignore build output
+dist/
+build/
+
+# Ignore environment variables
+.env
+
+# Ignore macOS folder attributes
+.DS_Store
+
+# Ignore cache files
+.cache/
