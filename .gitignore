@@ -1,0 +1,7 @@
+"/node_modules" 
+"/package.json" 
+"/package_lock.json" 
+"/three.js/Exercise1/package_lock.json" 
+"*package_lock.json" 
+"*/package_lock.json" 
+"*node_modules" 
