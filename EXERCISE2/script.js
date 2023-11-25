@@ -38,6 +38,7 @@ gui.addColor(options,'boxColor').onChange(function(e){
     box.material.color.set(e)
 })
 
+
 //addding a geometry mesh element that is a box so the geometry that is the shape and the material
 
 const boxGeometry = new THREE.BoxGeometry();
@@ -57,6 +58,8 @@ const plane = new THREE.Mesh(planeGeometry,planeMaterial)
 plane.rotation.x = -0.5 * Math.PI
 scene.add(plane)
 
+//adding light ambienLight 
+const ambienLight = new THREE.AmbientLight(0x3333333);
 
 //writing the animation function to rotate the element
 function animations(time){
